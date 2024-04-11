@@ -1,0 +1,216 @@
+body {
+  background-color: #0e100f;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+  display:flex;align-items:center;justify-content:center;min-height:100vh;
+  overflow: hidden;
+}
+
+.content .demoBody code.prettyprint,
+.content .demoBody pre.prettyprint {
+  margin: 0;
+}
+.content .demoBody pre.prettyprint {
+  width: auto;
+}
+.content .demoBody code,
+.main-content .demoBody code {
+  background-color: transparent;
+  font-size: 18px;
+  line-height: 22px;
+}
+.demoBody {
+  font-family: "Signika Negative", sans-serif;
+  color: #989898;
+  font-size: 16px;
+  width: 100%;
+  margin: auto;
+  border-radius: 15px;
+}
+
+.timelineDemo {
+  margin: auto;
+  width: 80%;
+  padding: 20px 0;
+}
+
+.demoBody h1,
+.demoBody h2,
+.demoBody h3 {
+  margin: 10px 0 10px 0;
+  color: #f3f2ef;
+}
+
+.demoBody h1 {
+  font-size: 36px;
+}
+
+.demoBody h2 {
+  font-size: 18px;
+  font-weight: 300;
+}
+
+.demoBody h3 {
+  font-size: 24px;
+}
+
+.demoBody p {
+  line-height: 22px;
+  margin-bottom: 16px;
+  width: 80%;
+}
+
+.timelineDemo .box {
+  width: 50px;
+  height: 50px;
+  position: relative;
+  border-radius: 6px;
+  margin-bottom: 4px;
+}
+
+.timelineDemo .green {
+  background-color: #0ae448;
+}
+
+.timelineDemo .orange {
+  background-color: #ff8709;
+}
+.timelineDemo .purple {
+  background-color: #9d95ff;
+}
+
+.timleineUI-row {
+  background-color: #2f2f2f;
+  margin: 2px 0;
+  padding: 4px 0;
+}
+
+.markers {
+  display: flex;
+  width: 100%;
+  align-items: space-apart;
+  justify-content: space-between;
+}
+
+.secondMarker {
+  border-left: solid 1px #aaa;
+  height: 10px;
+  display: inline-block;
+  position: relative;
+  line-height: 16px;
+  font-size: 16px;
+  color: #777;
+}
+
+.timelineUI-tween {
+  position: relative;
+  width: 20%;
+  height: 16px;
+  border-radius: 8px;
+}
+
+.timelineUI-tween.green {
+  width: 40%;
+}
+
+.timelineUI-dragger-track {
+  position: relative;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.timelineUI-dragger {
+  position: absolute;
+  width: 10px;
+  height: 100px;
+  top: -25px;
+}
+
+.timelineUI-dragger div {
+  position: relative;
+  width: 20px;
+  height: 20px;
+  background-color:#fffce1;
+  left: -10px;
+  border-radius: 99px;
+}
+
+.timelineUI-dragger div::after {
+  content: " ";
+  position: absolute;
+  width: 1px;
+  height: 95px;
+  top: 100%;
+  left: calc(50% - 1px);
+  border-left: solid 2px #fffce1;
+}
+
+.timelineUI-dragger div::before {
+  content: " ";
+  position: absolute;
+  width: 20px;
+  height: 114px;
+  top: -20px;
+  left: -10px;
+}
+
+.timelineUI-time {
+  position: relative;
+  font-size: 30px;
+  text-align: center;
+}
+
+.controls {
+  margin: 10px 2px;
+}
+
+.prettyprint {
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.timelineUI-button {
+  background: transparent;
+  border-radius: 99px;
+  border: solid 2px #fffce1;
+  color: #fffce1;
+  text-decoration: none;
+  margin: 0.5rem auto;
+  font-family: "Signika Negative", sans-serif;
+  text-transform: uppercase;
+  font-weight: 600;
+  display: table;
+  cursor: pointer;
+  font-size: 13px;
+  line-height: 18px;
+  outline: none;
+  display: inline-block;
+  padding: 8px 14px;
+}
+
+.timelineUI-button:hover {
+  background: #fffce1;
+  text-decoration: none;
+  color: #42433d
+}
+
+.element-box {
+  background: #ffffff;
+  border-radius: 6px;
+  border: 1px solid #cccccc;
+  padding: 17px 26px 17px 26px;
+  font-weight: 400;
+  font-size: 18px;
+  color: #555555;
+  margin-bottom: 20px;
+}
+
+.demoBody .prettyprint {
+  min-width: 300px;
+}
+
+.boxes {
+  display: flex;
+  justify-content: space-around;
+}

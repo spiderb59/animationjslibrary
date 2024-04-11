@@ -1,0 +1,55 @@
+
+<html>
+  <head>
+     <title>Animation CDN</title>
+     <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+     <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/Draggable.min.js"></script>
+
+     <link rel="stylesheet" type="text/css" href="main.css">
+  </head>
+
+  <body>
+    <div className="animateMe"></div>
+    <h1>Hello GSAP!</h1>
+    <link href='https://fonts.googleapis.com/css?family=Signika' rel='stylesheet' type='text/css'>
+     
+        <div class="demoBody">
+<div id="sequence" class="timelineDemo">
+
+
+     <div class="box green" data-color="#0ae448" id="green"></div>
+    <div class="box purple" data-color="#9d95ff" id="purple"></div>
+    <div class="box orange" data-color="#ff8709" id="orange"></div>
+
+
+    <div class="timelineUI">
+      <div class="timelineUI-time" id="sequenceTime">0</div>
+      <div class="timelineUI-dragger-track">
+        <div class="timelineUI-dragger">
+          <div></div>
+        </div>
+      </div>
+      <div class="markers">
+      </div>
+
+      <div class="timleineUI-row">
+        <div class="timelineUI-tween green"></div>
+      </div>
+      <div class="timleineUI-row">
+        <div class="timelineUI-tween purple"></div>
+      </div>
+      <div class="timleineUI-row">
+        <div class="timelineUI-tween orange"></div>
+      </div>
+    </div>
+    <div class="controls">
+      <button class="timelineUI-button play">play</button>
+    </div>
+  </div>
+</div>
+    <script src="script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+  </body>
+</html>
