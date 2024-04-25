@@ -2,6 +2,9 @@
 
 This project is dedicated to practicing GSAP (GreenSock Animation Platform) and implementing animations using GSAP library. GSAP is a powerful JavaScript animation library that enables you to create high-performance, complex animations with ease.
 
+![Image](assests/whoispokemon.gif)
+
+
 ## Getting Started
 
 To get started with this project, follow these steps:
